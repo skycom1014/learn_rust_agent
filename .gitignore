@@ -1,0 +1,12 @@
+# 忽略所有子目录下的 target 文件夹
+**/target/
+
+# 忽略所有 .env 文件 (防止泄露 API Key)
+**/.env
+
+# 忽略操作系统文件
+.DS_Store
+Thumbs.db
+
+# 忽略 Rust 分析数据
+**/*.rs.bk
